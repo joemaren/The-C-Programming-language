@@ -18,7 +18,7 @@ int main()
         if(c == '\t')
             fputs("\\t", stdout);
         else if(c == '\n')
-            fputs("\\n", stdout);
+            fputs("\\n\n", stdout);
         else if(c == '\b')
             fputs("\\b", stdout);
         else
